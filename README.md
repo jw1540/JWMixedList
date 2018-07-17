@@ -42,7 +42,7 @@ Check the Example project to see how it's implemented, and the benefits you migh
 
 ## Contributing
 
-There are a few things this doesn't support, and some challenges it faces. If you have solutions, please raise a PR! 
+There are a few things this doesn't support, and some challenges it faces. If you have solutions, please raise a PR!
 
 ## Installation
 
