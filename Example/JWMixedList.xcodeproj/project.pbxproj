@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		35C87B86C53039970A0DCBBD /* Pods_JWMixedList_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E92697469B585C4FA0778BF /* Pods_JWMixedList_Tests.framework */; };
+		55477BBB20FE9DCD00710672 /* Advert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BBA20FE9DCD00710672 /* Advert.swift */; };
+		55477BBD20FE9DE400710672 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BBC20FE9DE400710672 /* Image.swift */; };
+		55477BBF20FE9E0B00710672 /* Text.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BBE20FE9E0B00710672 /* Text.swift */; };
+		55477BC120FE9E2A00710672 /* FeedDataTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BC020FE9E2A00710672 /* FeedDataTypes.swift */; };
+		55477BC420FE9E6400710672 /* AdvertCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BC220FE9E6400710672 /* AdvertCell.swift */; };
+		55477BC520FE9E6400710672 /* AdvertCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55477BC320FE9E6400710672 /* AdvertCell.xib */; };
+		55477BC820FE9E9F00710672 /* ImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BC620FE9E9F00710672 /* ImageCell.swift */; };
+		55477BC920FE9E9F00710672 /* ImageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55477BC720FE9E9F00710672 /* ImageCell.xib */; };
+		55477BCC20FE9F4400710672 /* TextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BCA20FE9F4400710672 /* TextCell.swift */; };
+		55477BCD20FE9F4400710672 /* TextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55477BCB20FE9F4400710672 /* TextCell.xib */; };
+		55477BCF20FE9FE900710672 /* AdvertCellItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BCE20FE9FE900710672 /* AdvertCellItemController.swift */; };
+		55477BD120FEA0C100710672 /* ImageCellItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BD020FEA0C100710672 /* ImageCellItemController.swift */; };
+		55477BD320FEA13500710672 /* TextCellItemController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BD220FEA13500710672 /* TextCellItemController.swift */; };
+		55477BD520FEA1CF00710672 /* BasicCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BD420FEA1CF00710672 /* BasicCoordinator.swift */; };
+		55477BD720FEA20B00710672 /* CellItemControllerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BD620FEA20B00710672 /* CellItemControllerFactory.swift */; };
+		55477BD920FEA47900710672 /* EmptyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55477BD820FEA47900710672 /* EmptyViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -30,7 +46,23 @@
 /* Begin PBXFileReference section */
 		09B750438677737D4BD9434C /* Pods-JWMixedList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWMixedList_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWMixedList_Example/Pods-JWMixedList_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0C9856F0ADF261C2B6D14653 /* Pods-JWMixedList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWMixedList_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWMixedList_Example/Pods-JWMixedList_Example.release.xcconfig"; sourceTree = "<group>"; };
-		2E444B8FDF50323F72467D48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		2E444B8FDF50323F72467D48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		55477BBA20FE9DCD00710672 /* Advert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Advert.swift; sourceTree = "<group>"; };
+		55477BBC20FE9DE400710672 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
+		55477BBE20FE9E0B00710672 /* Text.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Text.swift; sourceTree = "<group>"; };
+		55477BC020FE9E2A00710672 /* FeedDataTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDataTypes.swift; sourceTree = "<group>"; };
+		55477BC220FE9E6400710672 /* AdvertCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertCell.swift; sourceTree = "<group>"; };
+		55477BC320FE9E6400710672 /* AdvertCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AdvertCell.xib; sourceTree = "<group>"; };
+		55477BC620FE9E9F00710672 /* ImageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCell.swift; sourceTree = "<group>"; };
+		55477BC720FE9E9F00710672 /* ImageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ImageCell.xib; sourceTree = "<group>"; };
+		55477BCA20FE9F4400710672 /* TextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCell.swift; sourceTree = "<group>"; };
+		55477BCB20FE9F4400710672 /* TextCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TextCell.xib; sourceTree = "<group>"; };
+		55477BCE20FE9FE900710672 /* AdvertCellItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdvertCellItemController.swift; sourceTree = "<group>"; };
+		55477BD020FEA0C100710672 /* ImageCellItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCellItemController.swift; sourceTree = "<group>"; };
+		55477BD220FEA13500710672 /* TextCellItemController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextCellItemController.swift; sourceTree = "<group>"; };
+		55477BD420FEA1CF00710672 /* BasicCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasicCoordinator.swift; sourceTree = "<group>"; };
+		55477BD620FEA20B00710672 /* CellItemControllerFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellItemControllerFactory.swift; sourceTree = "<group>"; };
+		55477BD820FEA47900710672 /* EmptyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmptyViewController.swift; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* JWMixedList_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JWMixedList_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,10 +73,10 @@
 		607FACE51AFB9204008FA782 /* JWMixedList_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JWMixedList_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		72E71321DA24EB8748D937BC /* JWMixedList.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = JWMixedList.podspec; path = ../JWMixedList.podspec; sourceTree = "<group>"; };
+		72E71321DA24EB8748D937BC /* JWMixedList.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = JWMixedList.podspec; path = ../JWMixedList.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7E92697469B585C4FA0778BF /* Pods_JWMixedList_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWMixedList_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A56004B86B4AA387CF780265 /* Pods_JWMixedList_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JWMixedList_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B89AC011A42CB49944AADFFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		B89AC011A42CB49944AADFFB /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		DBDEA58407B6E4D573A4670B /* Pods-JWMixedList_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWMixedList_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JWMixedList_Tests/Pods-JWMixedList_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F8252882F7CB2C752A41031A /* Pods-JWMixedList_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JWMixedList_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-JWMixedList_Tests/Pods-JWMixedList_Tests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -69,6 +101,43 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		55477BB720FE9DA900710672 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				55477BBA20FE9DCD00710672 /* Advert.swift */,
+				55477BBC20FE9DE400710672 /* Image.swift */,
+				55477BBE20FE9E0B00710672 /* Text.swift */,
+				55477BC020FE9E2A00710672 /* FeedDataTypes.swift */,
+				55477BD420FEA1CF00710672 /* BasicCoordinator.swift */,
+				55477BD620FEA20B00710672 /* CellItemControllerFactory.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		55477BB820FE9DA900710672 /* Cell Item Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				55477BB920FE9DA900710672 /* Cells */,
+				55477BCE20FE9FE900710672 /* AdvertCellItemController.swift */,
+				55477BD020FEA0C100710672 /* ImageCellItemController.swift */,
+				55477BD220FEA13500710672 /* TextCellItemController.swift */,
+			);
+			path = "Cell Item Controllers";
+			sourceTree = "<group>";
+		};
+		55477BB920FE9DA900710672 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				55477BC220FE9E6400710672 /* AdvertCell.swift */,
+				55477BC320FE9E6400710672 /* AdvertCell.xib */,
+				55477BC620FE9E9F00710672 /* ImageCell.swift */,
+				55477BC720FE9E9F00710672 /* ImageCell.xib */,
+				55477BCA20FE9F4400710672 /* TextCell.swift */,
+				55477BCB20FE9F4400710672 /* TextCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,12 +162,15 @@
 		607FACD21AFB9204008FA782 /* Example for JWMixedList */ = {
 			isa = PBXGroup;
 			children = (
+				55477BB820FE9DA900710672 /* Cell Item Controllers */,
+				55477BB720FE9DA900710672 /* Entities */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				55477BD820FEA47900710672 /* EmptyViewController.swift */,
 			);
 			name = "Example for JWMixedList";
 			path = JWMixedList;
@@ -248,8 +320,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55477BCD20FE9F4400710672 /* TextCell.xib in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				55477BC520FE9E6400710672 /* AdvertCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				55477BC920FE9E9F00710672 /* ImageCell.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,7 +446,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
+				55477BC120FE9E2A00710672 /* FeedDataTypes.swift in Sources */,
+				55477BBF20FE9E0B00710672 /* Text.swift in Sources */,
+				55477BBD20FE9DE400710672 /* Image.swift in Sources */,
+				55477BCC20FE9F4400710672 /* TextCell.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				55477BD520FEA1CF00710672 /* BasicCoordinator.swift in Sources */,
+				55477BCF20FE9FE900710672 /* AdvertCellItemController.swift in Sources */,
+				55477BD120FEA0C100710672 /* ImageCellItemController.swift in Sources */,
+				55477BD720FEA20B00710672 /* CellItemControllerFactory.swift in Sources */,
+				55477BC820FE9E9F00710672 /* ImageCell.swift in Sources */,
+				55477BC420FE9E6400710672 /* AdvertCell.swift in Sources */,
+				55477BD920FEA47900710672 /* EmptyViewController.swift in Sources */,
+				55477BBB20FE9DCD00710672 /* Advert.swift in Sources */,
+				55477BD320FEA13500710672 /* TextCellItemController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
