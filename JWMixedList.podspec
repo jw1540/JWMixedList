@@ -29,12 +29,12 @@ on an item by item basis.
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'jw1540' => 'joew795@gmail.com' }
   s.source           = { :git => 'https://github.com/jw1540/JWMixedList.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/seph_joe_'
+  s.social_media_url = 'https://twitter.com/seph_joe_'
 
   s.ios.deployment_target = '8.0'
   s.swift_version = '3.2'
 
-  s.source_files = 'JWMixedList/Interface/*.swift'
+  s.source_files = 'JWMixedList/**/*.swift'
   
   # s.resource_bundles = {
   #   'JWMixedList' => ['JWMixedList/Assets/*.png']
