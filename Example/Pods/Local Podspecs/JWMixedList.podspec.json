@@ -1,0 +1,22 @@
+{
+  "name": "JWMixedList",
+  "version": "0.1.0",
+  "summary": "A short description of JWMixedList.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/jw1540/JWMixedList",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "jw1540": "joseph.williams@sky.uk"
+  },
+  "source": {
+    "git": "https://github.com/jw1540/JWMixedList.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "JWMixedList/Classes/**/*"
+}

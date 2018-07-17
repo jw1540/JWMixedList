@@ -1,0 +1,6 @@
+framework module Pods_JWMixedList_Tests {
+  umbrella header "Pods-JWMixedList_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

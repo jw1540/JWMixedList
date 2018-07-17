@@ -1,0 +1,6 @@
+framework module JWMixedList {
+  umbrella header "JWMixedList-umbrella.h"
+
+  export *
+  module * { export * }
+}

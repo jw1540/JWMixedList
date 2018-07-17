@@ -1,0 +1,6 @@
+framework module Pods_JWMixedList_Example {
+  umbrella header "Pods-JWMixedList_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

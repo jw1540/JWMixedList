@@ -1,0 +1,16 @@
+PODS:
+  - JWMixedList (0.1.0)
+
+DEPENDENCIES:
+  - JWMixedList (from `../`)
+
+EXTERNAL SOURCES:
+  JWMixedList:
+    :path: ../
+
+SPEC CHECKSUMS:
+  JWMixedList: 41cf83fdeea6b4404fbf5f7a4bce57a5786be791
+
+PODFILE CHECKSUM: 769597665a7d95fbfe5ff3bf05869fe323c8e5c5
+
+COCOAPODS: 1.4.0
