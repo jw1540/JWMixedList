@@ -9,7 +9,40 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+## Why?
+* ✅ Data agnostic UITableViewControllers
+* ✅ Data agnostic UICollectionViewControllers
+* ✅ Better abstractions layer of abstraction around data sources
+* ✅ Easier to test
+
+If you have ever found yourself writing the following code:
+
+```swift
+func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+
+    let cell: UICollectionViewCell
+
+    if indexPath.item == 0 {
+        cell = collectionView.dequeue(someCell) as! TypeA
+        cell.configure()
+    } else if indexPath.item == 2 {
+        cell = collectionView.dequeue(someCell) as! TypeB
+        cell.configure()
+    } else {
+        fatalError("This is getting long...")
+    }
+
+    return cell
+}
+```
+
+You might benefit from abstracting out into Item Controllers. You remove all this logic by having some `FeedDataType` enum, and switching over that.
+
+Check the Example project to see how it's implemented, and the benefits you might be able to get from it.
+
+## Contributing
+
+There are a few things this doesn't support, and some challenges it faces. If you have solutions, please raise a PR! 
 
 ## Installation
 
@@ -22,7 +55,7 @@ pod 'JWMixedList'
 
 ## Author
 
-jw1540, joseph.williams@sky.uk
+Joe Williams
 
 ## License
 
