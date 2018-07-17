@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'JWMixedList_Example' do
+  pod 'JWMixedList', :path => '../'
+
+  target 'JWMixedList_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
