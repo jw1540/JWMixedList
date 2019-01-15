@@ -42,7 +42,7 @@ public class ListAdapter: NSObject, UICollectionViewDataSource, UICollectionView
         return cell
     }
     
-    private func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+    public func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize  {
         return self.itemControllers[indexPath.item].sizeForItem(collectionView: collectionView, layout: collectionViewLayout)
     }
     
