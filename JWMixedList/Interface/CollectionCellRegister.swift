@@ -23,8 +23,7 @@ extension CollectionCellRegister {
         } else {
             collectionView.register(cellClass.self, forCellWithReuseIdentifier: cellIdentifier)
         }
-    }
-    
+    }    
     
     /// Abstracting away the dequeue mechanism.
     ///

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0EF313B821EDDDCF00DD43A8 /* ListAdapterDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF313B621EDDDCF00DD43A8 /* ListAdapterDataSource.swift */; };
+		0EF313B921EDDDCF00DD43A8 /* ListAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF313B721EDDDCF00DD43A8 /* ListAdapter.swift */; };
 		1881D52DCE8736522A26F3D2F16416BB /* JWMixedList-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 79F0E7C0707B807758F3FCB9A4539FEC /* JWMixedList-dummy.m */; };
 		4131458513AEFB46B6DC0427D4F12540 /* Pods-JWMixedList_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C34D58B19C539C89E0C7AA6C25748728 /* Pods-JWMixedList_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		539CDA093FD6897F06EEEE28AF5DE8BC /* Pods-JWMixedList_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 852BE10671A4DEAF633F4DC7330BC497 /* Pods-JWMixedList_Tests-dummy.m */; };
@@ -39,6 +41,8 @@
 		0206FD1FD473DCD45A56AD82CAEA382E /* JWMixedList.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JWMixedList.modulemap; sourceTree = "<group>"; };
 		051C7B27FE05DE4E55DC51ECF7B99052 /* Pods-JWMixedList_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-JWMixedList_Example.modulemap"; sourceTree = "<group>"; };
 		0B1A73C022E599304539679D2A0BDB72 /* Pods-JWMixedList_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-JWMixedList_Example-dummy.m"; sourceTree = "<group>"; };
+		0EF313B621EDDDCF00DD43A8 /* ListAdapterDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAdapterDataSource.swift; sourceTree = "<group>"; };
+		0EF313B721EDDDCF00DD43A8 /* ListAdapter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListAdapter.swift; sourceTree = "<group>"; };
 		25AA18426C0BEE8A6BEEBAF2DD0B7A2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		281040ED0FB53CC0F37BEF162226CA3E /* Pods-JWMixedList_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWMixedList_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3DAA979FA6BF985ECDED42D1029B6547 /* Pods-JWMixedList_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-JWMixedList_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -157,6 +161,8 @@
 		55477BAA20FE994F00710672 /* Interface */ = {
 			isa = PBXGroup;
 			children = (
+				0EF313B721EDDDCF00DD43A8 /* ListAdapter.swift */,
+				0EF313B621EDDDCF00DD43A8 /* ListAdapterDataSource.swift */,
 				55477BAB20FE996800710672 /* TableCellRegister.swift */,
 				55477BAD20FE9A5400710672 /* CollectionCellRegister.swift */,
 				55477BAF20FE9A6E00710672 /* CellInformation.swift */,
@@ -336,7 +342,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1010;
 				TargetAttributes = {
 					53184AABD1D6AAC3B3B5A2F18D5C928D = {
 						LastSwiftMigration = 0900;
@@ -385,8 +391,10 @@
 			files = (
 				55477BAE20FE9A5400710672 /* CollectionCellRegister.swift in Sources */,
 				1881D52DCE8736522A26F3D2F16416BB /* JWMixedList-dummy.m in Sources */,
+				0EF313B821EDDDCF00DD43A8 /* ListAdapterDataSource.swift in Sources */,
 				55477BB020FE9A6E00710672 /* CellInformation.swift in Sources */,
 				55477BDB20FEA4F500710672 /* SectionCollectionController.swift in Sources */,
+				0EF313B921EDDDCF00DD43A8 /* ListAdapter.swift in Sources */,
 				55477BAC20FE996800710672 /* TableCellRegister.swift in Sources */,
 				55477BB220FE9ADD00710672 /* CollectionCellItemController.swift in Sources */,
 				55477BB420FE9B3A00710672 /* TableCellItemController.swift in Sources */,
@@ -588,6 +596,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;

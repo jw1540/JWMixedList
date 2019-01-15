@@ -10,7 +10,9 @@ import UIKit
 import JWMixedList
 
 class ImageCellItemController: CollectionCellItemController {
-    var data: Decodable
+    var data: Decodable?
+    
+    var collectionView: UICollectionView?
     
     var coordinator: Coordinator
     
@@ -43,5 +45,7 @@ class ImageCellItemController: CollectionCellItemController {
         return CGSize(width: 250, height: 250)
     }
     
-    
+    func didUpdate(to object: Decodable) {
+        self.data = object
+    }
 }

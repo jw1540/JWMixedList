@@ -11,10 +11,13 @@ public protocol CollectionCellItemController: CollectionCellRegister {
     /// The data the individual cell is displaying. Must conform to Decodable,
     /// but doesn't need to implement it. This is to avoid any type erasure
     /// or some kind of thunk class with an associatedtype.
-    var data: Decodable { get }
+    var data: Decodable? { get set }
     
     /// The coordinator
     var coordinator: Coordinator { get set }
+    
+    /// the collection view we're in
+    var collectionView: UICollectionView? { get set }
     
     /// The wrapper around cellForRowAt:, this is where you'll configure the cell.
     ///
@@ -23,4 +26,6 @@ public protocol CollectionCellItemController: CollectionCellRegister {
     
     /// The event handler for selection
     func didSelect()
+    
+    func didUpdate(to object: Decodable)
 }

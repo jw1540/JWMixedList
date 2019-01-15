@@ -10,8 +10,10 @@ import UIKit
 import JWMixedList
 
 class AdvertCellItemController: CollectionCellItemController {
-    var data: Decodable
+    var data: Decodable?
     
+    var collectionView: UICollectionView?
+
     var coordinator: Coordinator
     
     var bundle: Bundle {
@@ -46,6 +48,10 @@ class AdvertCellItemController: CollectionCellItemController {
     
     func sizeForItem(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout) -> CGSize {
         return CGSize(width: collectionView.frame.width, height: 90)
+    }
+    
+    func didUpdate(to object: Decodable) {
+        self.data = object
     }
     
     

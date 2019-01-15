@@ -287,10 +287,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HWKSN9MB55;
 						LastSwiftMigration = 0900;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = HWKSN9MB55;
 						LastSwiftMigration = 0900;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -605,6 +607,7 @@
 			baseConfigurationReference = 09B750438677737D4BD9434C /* Pods-JWMixedList_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWKSN9MB55;
 				INFOPLIST_FILE = JWMixedList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -620,6 +623,7 @@
 			baseConfigurationReference = 0C9856F0ADF261C2B6D14653 /* Pods-JWMixedList_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HWKSN9MB55;
 				INFOPLIST_FILE = JWMixedList/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -634,6 +638,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DBDEA58407B6E4D573A4670B /* Pods-JWMixedList_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HWKSN9MB55;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -656,6 +661,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F8252882F7CB2C752A41031A /* Pods-JWMixedList_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = HWKSN9MB55;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

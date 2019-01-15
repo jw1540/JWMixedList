@@ -12,7 +12,7 @@ import Foundation
 public protocol Coordinator {
     
     /// The view controller we push or present from.
-    weak var viewController: UIViewController? { get set }
+    var viewController: UIViewController? { get set }
     
     /// Called when we wish to push or present.
     ///
